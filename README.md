@@ -45,15 +45,27 @@ Este é um site desenvolvido para apresentar os serviços e produtos de **Eliana
 
 ```bash
 Projeto_Eliana_Ferreira/
+├── .vscode/
 ├── src/
 │   ├── assets/
-│   │   ├── icons/         # 🖼️ Ícones usados no projeto
-│   │   ├── images/        # 🖼️ Logos das marcas e imagens utilizadas
-│   ├── pages/             # 📜 Scripts JavaScript para funcionalidades específicas
-│   ├── styles/            # 🎨 Arquivos CSS para estilização
-│   ├── utils/             # ⚙️ Funções e scripts auxiliares
-│   ├── index.html         # 🌟 Página inicial
-│   ├── index2.html        # ⏩ Segunda página exibida após o redirecionamento
+│   │   ├── icons/
+│   │   │   ├── Button (1).png
+│   │   │   ├── Notification.png
+│   │   │   ├── woman.png
+│   │   ├── images/
+│   │   │   ├── Imagem_compra.svg
+│   │   │   ├── Lowell_logo-removebg-preview.png
+│   │   │   ├── boticario-removebg-preview.png
+│   │   │   ├── eudora_logo-2.png
+│   │   │   ├── whatsapp.png
+│   ├── pages/
+│   │   ├── index.js
+│   ├── styles/
+│   │   ├── index.css
+│   │   ├── index2.css
+├── index.html
+├── index2.html
+├── README.md
 ```
 
 ---
