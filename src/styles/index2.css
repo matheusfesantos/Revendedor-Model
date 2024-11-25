@@ -18,6 +18,7 @@ body {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    border: 4px solid black;
 }
 
 .texto1 {
@@ -61,6 +62,7 @@ body {
     text-align: center;
     padding: 1px;
     transition: transform 0.3s ease-in-out;
+    border: 5px solid black;
 }
 
 .button:hover {
@@ -83,25 +85,18 @@ body {
     bottom: 0;
 }
 
-/* Responsividade para tablets e telas intermediárias */
-@media screen and (max-width: 1024px) {
-    .avatar img {
-        width: 180px;
-        height: 180px;
-    }
-
-    .texto1 p {
-        font-size: 18px;
+@media screen and (min-width: 1025px) {
+    .marcas {
+        flex-direction: column; /* Empilha as logos uma embaixo da outra */
+        align-items: center;   /* Centraliza as logos */
     }
 
     .marcas img {
-        width: 250px;
-    }
-
-    .button h1 {
-        font-size: 26px;
+        width: 250px;          /* Define um tamanho consistente para as imagens */
+        margin: 15px 0;        /* Adiciona espaçamento vertical */
     }
 }
+
 
 /* Responsividade para dispositivos móveis */
 @media screen and (max-width: 768px) {
@@ -127,6 +122,10 @@ body {
     .button {
         margin-top: 20px;
     }
+
+    .footer{
+        margin-top: auto;
+    }
 }
 
 /* Responsividade para smartphones menores */
@@ -150,6 +149,10 @@ body {
 
     .button h1 {
         font-size: 20px;
+    }
+
+    .footer{
+        margin-top: auto;
     }
 }
 

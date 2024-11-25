@@ -1,3 +1,3 @@
 setTimeout(function() {
-    window.location.href = 'index2.html';
-}, 3000); 
+    window.location.href = '/src/index2.html';
+}, 3000);
