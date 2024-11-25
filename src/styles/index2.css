@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+    margin: 0px;
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar img {
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.texto1 {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.texto1 h1 {
+    color: #233FC6;
+}
+
+.texto1 p {
+    font-size: 20px;
+    color: silver;
+}
+
+.notification {
+    text-align: center;
+}
+
+.marcas {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.marcas img {
+    margin-top: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #4169E1;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    padding: 1px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #4169E1;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Responsividade para tablets e telas intermediárias */
+@media screen and (max-width: 1024px) {
+    .avatar img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .texto1 p {
+        font-size: 18px;
+    }
+
+    .marcas img {
+        width: 250px;
+    }
+
+    .button h1 {
+        font-size: 26px;
+    }
+}
+
+/* Responsividade para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    .avatar img {
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .texto1 p {
+        font-size: 16px;
+    }
+
+    .marcas {
+        flex-direction: column;
+    }
+
+    .marcas img {
+        width: 200px;
+        margin-left: 0;
+    }
+
+    .button {
+        margin-top: 20px;
+    }
+}
+
+/* Responsividade para smartphones menores */
+@media screen and (max-width: 480px) {
+    .avatar img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .texto1 h1 {
+        margin-bottom: 0px;
+    }
+
+    .texto1 p {
+        font-size: 14px;
+    }
+
+    .marcas img {
+        width: 150px;
+    }
+
+    .button h1 {
+        font-size: 20px;
+    }
+}
+
+/* Layout otimizado para desktops */
+@media screen and (min-width: 1025px) {
+    .avatar img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .texto1 h1 {
+        font-size: 36px;
+    }
+
+    .texto1 p {
+        font-size: 22px;
+    }
+
+    .marcas img {
+        width: 320px;
+    }
+
+    .button h1 {
+        font-size: 32px;
+    }
+}
