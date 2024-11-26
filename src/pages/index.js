@@ -7,4 +7,3 @@ try{
 } catch{
     console.log("Algum erro existente")
 }
-
