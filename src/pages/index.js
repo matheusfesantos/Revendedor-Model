@@ -1,4 +1,3 @@
-console.log("Trocnaod tela")
 try{
     setTimeout(function() {
         window.location.href = '/src/index2.html';
